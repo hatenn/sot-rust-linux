@@ -1,0 +1,22 @@
+[package]
+name = "htn_piston"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+piston = "0.55.0"
+piston2d-graphics = "0.44.0"
+piston2d-opengl_graphics = "0.83.0"
+pistoncore-glfw_window = { path = "glfw_window" }
+pistoncore-window = "1.0.0"
+pistoncore-input = "1.0.0"
+shader_version = "0.7.0"
+gl = "0.13.0"
+libc = "0.2"
+procfs = "0.16.0"
+maths-rs = "0.2.6"
+x11 = "2.18.2"
+num-complex = "0.4.5"
+device_query_revamped = "2.2.1"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"

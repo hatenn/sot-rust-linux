@@ -1,0 +1,13 @@
+language: rust
+addons:
+  apt:
+    sources:
+      - kubuntu-backports
+    packages:
+      - libxinerama-dev
+      - libxcursor-dev
+      - xorg-dev
+script:
+  - cargo build --all-features
+  - cargo test --all-features
+  - cargo doc --all-features

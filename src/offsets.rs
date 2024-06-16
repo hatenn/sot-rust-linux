@@ -41,7 +41,7 @@ pub mod offsets{
     pub static BASED_MOVEMENT : u64 = 0x458; //ACharacter
     pub static ATTACH_PARENT : u64 = 0xE0; //USceneComponent
     pub static CHILD_ACTOR : u64 = 0x2E8; //UPrimitiveComponent, it's the first value
-    pub static PARENT_COMPONENT :u64 = 0x1A0;
+    pub static PARENT_COMPONENT :u64 = 0x1A0; //AActor
 
     pub static DAMAGE_LEVEL : u64 = 0x654;
     pub static LEVELS : u64 = 0x150; //UWORLD
